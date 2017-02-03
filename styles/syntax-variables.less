@@ -1,30 +1,31 @@
+@import "colors";
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: #4d4d4c;
-@syntax-cursor-color: #4d4d4c;
-@syntax-selection-color: #d0d0d0;
-@syntax-background-color: #f3f3f3;
+@syntax-text-color: @base05;
+@syntax-cursor-color: @base05;
+@syntax-selection-color: @base01;
+@syntax-background-color: @base00;
 
 // Guide colors
-@syntax-wrap-guide-color: #f3f3f3;
-@syntax-indent-guide-color: #f3f3f3;
-@syntax-invisible-character-color: #f3f3f3;
+@syntax-wrap-guide-color: @base03;
+@syntax-indent-guide-color: @base03;
+@syntax-invisible-character-color: @base03;
 
 // For find and replace markers
-@syntax-result-marker-color: #f3f3f3;
-@syntax-result-marker-color-selected: #4d4d4c;
+@syntax-result-marker-color: @base03;
+@syntax-result-marker-color-selected: @base05;
 
 // Gutter colors
-@syntax-gutter-text-color: #4d4d4c;
-@syntax-gutter-text-color-selected: #4d4d4c;
-@syntax-gutter-background-color: #f3f3f3;
-@syntax-gutter-background-color-selected: rgba(176, 176, 176, 0.13);
+@syntax-gutter-text-color: @base05;
+@syntax-gutter-text-color-selected: @base05;
+@syntax-gutter-background-color: @base00;
+@syntax-gutter-background-color-selected: @base02;
 
 // For git diff info. i.e. in the gutter
 // These are static and were not extracted from your textmate theme
-@syntax-color-renamed: #005f87;
-@syntax-color-added: #718c00;
-@syntax-color-modified: #4271ae;
-@syntax-color-removed: #8959a8;
+@syntax-color-renamed: @base0D;
+@syntax-color-added: @base0B;
+@syntax-color-modified: @base0A;
+@syntax-color-removed: @base08;
