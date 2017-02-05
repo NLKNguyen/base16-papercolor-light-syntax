@@ -1,7 +1,7 @@
 {
   "name": "base16-papercolor-light-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A Base16 light color scheme based on PaperColor",
   "keywords": [
     "syntax",
